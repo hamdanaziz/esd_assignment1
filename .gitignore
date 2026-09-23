@@ -1,0 +1,12 @@
+node_modules/
+logs/
+*.log
+.env
+.DS_Store
+
+# docker-compose named volumes are managed by Docker, not this repo,
+# but just in case anything gets bind-mounted locally during dev:
+prometheus-data/
+grafana-data/
+es-data/
+filebeat-data/

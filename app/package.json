@@ -1,0 +1,16 @@
+{
+  "name": "quickbite-api",
+  "version": "1.0.0",
+  "description": "QuickBite - a tiny food-ordering API used as the observability target app",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "prom-client": "^15.1.3",
+    "winston": "^3.13.0",
+    "uuid": "^9.0.1"
+  }
+}
